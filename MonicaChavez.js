@@ -76,7 +76,7 @@ switch (option){
             let UserName = prompt ( ' Nombre de Usuario: ');
             let UserLastname = prompt ( ' Apellido de Usuario: ');
             let UserAge = prompt (' edad de usuario: ');
-             
+
 
     }
 
@@ -85,6 +85,7 @@ switch (option){
 
 CreateMainMenu ();
 console.log(Books);
+console.log(Users);
 
 
 
