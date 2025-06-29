@@ -26,7 +26,11 @@ switch (option){
     case"1":
     CreateBooksMenu();
     case"2":
-    CreateUserMenu();   
+    CreateUserMenu();
+    case"3":
+    CreateLendsMenu();
+    case"4":
+    CreateReportsMenu();   
 
     }
     
@@ -79,10 +83,27 @@ switch (option){
             let UserName = prompt ( ' Nombre de Usuario: ');
             let UserLastname = prompt ( ' Apellido de Usuario: ');
             let UserAge = prompt (' edad de usuario: ');
-
-
     }
 
+  }
+
+  function CreateLendsMenu (){
+    console.log("**** PRESTAMOS ****");
+    console.log('1 Prestar libro ');
+    console.log('2 Devolver libro ');
+     
+
+  }
+
+  function CreateReportsMenu () {
+    console.log("**** REPORTES ****");
+    console.log('1 Total de libros ');
+    console.log('2 Cantidad de libros prestados');
+    console.log('3 Cantidad de libros por genero ');
+    console.log('4 Libro mas antiguo y mas nuevo');
+    console.log('5 promedio de anios de publicacion de libros ');
+    console.log('6 Anio de publicacion mas frecuente ');
+    console.log('7 Diferencia de anios entre libros mas antiguo y el mas nuevo'); 
 
   }
 
