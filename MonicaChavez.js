@@ -25,8 +25,11 @@ function CreateMainMenu () {
 switch (option){
     case"1":
     CreateBooksMenu();
-    
+    case"2":
+    CreateUserMenu();   
+
     }
+    
 }
 
   function CreateBooksMenu (){
